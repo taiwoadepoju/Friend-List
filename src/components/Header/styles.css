@@ -1,0 +1,21 @@
+.header {
+  box-shadow: inset 0px -1px 0px #E2E2EA;
+}
+
+.search {
+  width: 500px;
+  height: 37px;
+  background: #FAFAFB;
+  border: 1px solid #F1F1F5;
+  box-sizing: border-box;
+  border-radius: 15px;
+  border-right: none;
+}
+
+.search-icon {
+  background-color: #FAFAFB;
+  border: 1px solid #F1F1F5;
+  border-left: none;
+  border-bottom-right-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+}

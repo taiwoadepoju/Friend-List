@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "fullName": "John Cena",
+    "username": "johncena",
+    "coverImageUrl": "https://i.picsum.photos/id/1001/5616/3744.jpg?hmac=38lkvX7tHXmlNbI0HzZbtkJ6_wpWyqvkX4Ty6vYElZE",
+    "profileImageUrl": "https://i.picsum.photos/id/1001/5616/3744.jpg?hmac=38lkvX7tHXmlNbI0HzZbtkJ6_wpWyqvkX4Ty6vYElZE",
+    "bio": "Interaction Designer | Coffe Addict | Part time Traveller | Full time Mom of Baby and Bayi."
+  },
+  {
+    "id": "2",
+    "fullName": "Tiontay Carroll",
+    "username": "@chinezeulala",
+    "coverImageUrl": "https://i.picsum.photos/id/1005/5760/3840.jpg?hmac=2acSJCOwz9q_dKtDZdSB-OIK1HUcwBeXco_RMMTUgfY",
+    "profileImageUrl": "https://i.picsum.photos/id/1001/5616/3744.jpg?hmac=38lkvX7tHXmlNbI0HzZbtkJ6_wpWyqvkX4Ty6vYElZE",
+    "bio": "Youtube Content Creator | Photography | Profesional Videographer"
+  },
+  {
+    "id": "3",
+    "fullName": "Chineze Uchechey",
+    "username": "tatay",
+    "coverImageUrl": "https://i.picsum.photos/id/1006/3000/2000.jpg?hmac=x83pQQ7LW1UTo8HxBcIWuRIVeN_uCg0cG6keXvNvM8g",
+    "profileImageUrl": "https://i.picsum.photos/id/1001/5616/3744.jpg?hmac=38lkvX7tHXmlNbI0HzZbtkJ6_wpWyqvkX4Ty6vYElZE",
+    "bio": "Pushing pixels and experiences in digital products for onetwothree | Coffee(nosugar)"
+  },
+  {
+    "id": "4",
+    "fullName": "Tiontay Carroll",
+    "username": "@chinezeulala",
+    "coverImageUrl": "https://i.picsum.photos/id/1011/5472/3648.jpg?hmac=Koo9845x2akkVzVFX3xxAc9BCkeGYA9VRVfLE4f0Zzk",
+    "profileImageUrl": "https://i.picsum.photos/id/1001/5616/3744.jpg?hmac=38lkvX7tHXmlNbI0HzZbtkJ6_wpWyqvkX4Ty6vYElZE",
+    "bio": "Youtube Content Creator | Photography | Profesional Videographer"
+  }
+]

@@ -1,0 +1,44 @@
+
+.friend-card {
+  border-radius: 15px;
+}
+
+.cover-image {
+  height: 100px;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.profile-image {
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  border: solid 3px #fff;
+}
+
+.profile-image-section {
+  position: absolute;
+  top: 70px;
+  left: 20px;
+}
+
+.full-name {
+  font-size: 18px;
+  color: #171725;
+}
+
+.user-name {
+  font-size: 14px;
+  color: #92929D;
+}
+
+.user-bio {
+  font-size: 16px;
+  padding-left: 120px;
+}
+
+.follow-btn {
+  border-radius: 10px;
+}
