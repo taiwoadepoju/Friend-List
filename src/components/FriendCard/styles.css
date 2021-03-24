@@ -29,6 +29,10 @@
   color: #171725;
 }
 
+.full-name:hover {
+  cursor: pointer;
+}
+
 .user-name {
   font-size: 14px;
   color: #92929D;

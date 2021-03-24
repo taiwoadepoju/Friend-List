@@ -6,11 +6,11 @@ import SearchIcon from '../Icons/SearchIcon';
 import AddUserIcon from '../Icons/AddUserIcon';
 import BellIcon from '../Icons/BellIcon';
 import ChatIcon from '../Icons/ChatIcon';
-import UserAvatar from '../Icons/UserAvatar';
 import CaretIcon from '../Icons/CaretIcon';
+import Avatar from './avatar.png';
 import './styles.css';
 
-const Header = () => (
+const Header = ():JSX.Element => (
   <Navbar expand="lg" className="header">
     <Navbar.Brand href="/"><SquareLogo /></Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -35,7 +35,9 @@ const Header = () => (
         <Nav.Link><AddUserIcon /></Nav.Link>
         <Nav.Link><ChatIcon /></Nav.Link>
         <Nav.Link><BellIcon /></Nav.Link>
-        <Nav.Link><UserAvatar /></Nav.Link>
+        <Nav.Link>
+          <img src={Avatar} alt="user avatar" className="img-fluid avatar" />
+        </Nav.Link>
         <Nav.Link><CaretIcon /></Nav.Link>
       </Nav>
     </Navbar.Collapse>

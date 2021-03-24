@@ -19,3 +19,7 @@
   border-bottom-right-radius: 15px !important;
   border-top-right-radius: 15px !important;
 }
+
+.avatar {
+  height: 30px;
+}
