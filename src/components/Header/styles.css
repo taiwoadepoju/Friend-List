@@ -3,7 +3,7 @@
 }
 
 .search {
-  width: 500px;
+  width: 400px !important;
   height: 37px;
   background: #FAFAFB;
   border: 1px solid #F1F1F5;
