@@ -18,7 +18,7 @@ const FriendCard = (props: FriendProps):JSX.Element => {
   } = props;
 
   return (
-    <div className="col-sm-6 mt-4">
+    <div className="col-md-6 col-sm-12 mt-4">
       <Card className="friend-card">
         <Card.Img className="cover-image" variant="top" src={coverImageUrl} />
         <div className="row profile-image-section">
