@@ -21,7 +21,11 @@ const FriendsList = ():JSX.Element => {
 
   const handleAddFollower = (id:string) => {
     const newFollowers = existingFollowers.concat(id);
-    localStorage.setItem('FOLLOWERS', newFollowers);
+    if (existingFollowers?.includes(id)) {
+      localStorage.setItem('FOLLOWERS', existingFollowers.split(id).join(''));
+    } else {
+      localStorage.setItem('FOLLOWERS', newFollowers);
+    }
     window.location.reload();
   };
 
@@ -43,6 +47,7 @@ const FriendsList = ():JSX.Element => {
         <div className="row justify-content-center">
           {data.map((item: FriendProps) => (
             <FriendCard
+              key={item.id}
               showDetailModal={() => setSHowDetailModal(false)}
               profileImageUrl={item.profileImageUrl}
               coverImageUrl={item.coverImageUrl}

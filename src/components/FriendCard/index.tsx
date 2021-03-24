@@ -54,7 +54,7 @@ const FriendCard = (props: FriendProps):JSX.Element => {
                 variant={following ? 'primary' : 'outline-primary'}
                 onClick={() => handleAddFollower(id)}
               >
-                Following
+                {following ? 'Following' : 'Follow'}
               </Button>
             </div>
           </div>
