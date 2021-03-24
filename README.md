@@ -1,5 +1,7 @@
 # Friend List
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0658bfe17eee46cba62265aec054255a)](https://app.codacy.com/gh/taiwoadepoju/Friend-List?utm_source=github.com&utm_medium=referral&utm_content=taiwoadepoju/Friend-List&utm_campaign=Badge_Grade_Settings)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 The live app can be previewed [here](https://agitated-nightingale-78fc4a.netlify.app/)
