@@ -21,7 +21,7 @@ const Header = ():JSX.Element => (
             <Form.Control
               className="search"
               type="text"
-              placeholder="Username"
+              placeholder="Search"
               aria-describedby="inputGroupPrepend"
               name="username"
             />

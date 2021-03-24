@@ -29,6 +29,7 @@ const FriendCard = (props: FriendProps):JSX.Element => {
             <div className="col-sm-7 offset-sm-2 col-xs-12">
               <h4 className="full-name text-sm-left">
                 <Button
+                  className="fullname-btn"
                   variant="light"
                   onClick={() => handleSelectFriend({
                     coverImageUrl,

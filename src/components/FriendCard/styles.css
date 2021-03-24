@@ -18,6 +18,12 @@
   border: solid 3px #fff;
 }
 
+.fullname-btn {
+  background-color: rgb(255, 255, 255, 0.1);
+  border: none;
+  outline: none;
+}
+
 .profile-image-section {
   position: absolute;
   top: 70px;
