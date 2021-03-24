@@ -1,4 +1,4 @@
-const SquareLogo = () => (
+const SquareLogo = ():JSX.Element => (
   <>
     <svg width="112" height="32" viewBox="0 0 112 32" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g clipPath="url(#clip0)">

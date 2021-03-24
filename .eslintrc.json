@@ -1,8 +1,11 @@
 {
   "root": true,
-  "parser": "babel-eslint",
+  // "parser": "babel-eslint",
+  "parser": "@typescript-eslint/parser",
   "extends": [
     "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
     "plugin:import/errors",
     "plugin:import/warnings",
@@ -30,10 +33,14 @@
   },
   "plugins": [],
   "rules": {
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
     "react/react-in-jsx-scope": "off",
     "react/jsx-props-no-spreading": ["error", {"custom": "ignore"}] ,
     "import/no-unresolved": "off",
-    "no-param-reassign": "off"
+    "no-param-reassign": "off",
+    "import/extensions": "off"
+  },
+  "globals": {
+    "JSX":"readonly"
   }
 }
